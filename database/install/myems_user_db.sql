@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `myems_user_db`.`tbl_users` (
 -- Example Data for table `myems_user_db`.`tbl_users`
 -- --------------------------------------------------------------------------------------------------------------------
 -- default username: administrator
--- default password: !MyEMS1
+-- default password: CHANGE_ME_AT_DEPLOYMENT
 INSERT INTO `myems_user_db`.`tbl_users`(`id`, `name`, `uuid`, `display_name`, `email`, `phone`, `salt`, `password`, `is_admin`,
  `privilege_id`, `account_expiration_datetime_utc`, `password_expiration_datetime_utc`, `failed_login_count`)
 VALUES
@@ -174,4 +174,3 @@ CREATE TABLE IF NOT EXISTS `myems_user_db`.`tbl_verification_codes`  (
   PRIMARY KEY (`id`));
 CREATE INDEX `tbl_verirication_codes_index_1`
 ON `myems_user_db`.`tbl_verification_codes` (`recipient_email`, `created_datetime_utc`);
-

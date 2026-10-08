@@ -1,17 +1,16 @@
 <p align="center">
    <img alt="logo" src="https://myems.cn/img/myems.png" width="150" height="150">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">MyEMS v6.8.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">MyEMS v6.8.0 · Energy Saving BU fork</h1>
 <h3 align="center">Industry Leading Open Source Energy Management System</h3>
-<h6 align="center">Nearly a thousand project cases, awarded CMA testing certification</h6>
-<h6 align="center">Commitment to permanent open source</h6>
-<h6 align="center">Free technical support within QQ and WeChat groups</h6>
-<h6 align="center">Keep updating, release one small version every month and one large version every year</h6>
 
-[![CodeQL Scanning](https://github.com/MyEMS/myems/actions/workflows/codeql.yml/badge.svg)](https://github.com/MyEMS/myems/security/code-scanning)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/MyEMS/myems/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/MyEMS/myems/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/MyEMS/myems/badges/build.png?b=master)](https://scrutinizer-ci.com/g/MyEMS/myems/build-status/master)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2cd6049727240e2aaeb8fc7b4086166)](https://app.codacy.com/gh/MyEMS/myems/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+> This repository is the `Business-Unit-for-Energy-Saving` maintained fork of the upstream
+> [MyEMS project](https://github.com/MyEMS/myems). It is used for product evaluation,
+> business-specific integration and future energy-management delivery work.
+>
+> The business unit is currently `Incubating`. Requirements, scenario research and product
+> planning live in the [requirements repository](https://github.com/Business-Unit-for-Energy-Saving/requirements).
+> Upstream ownership, licenses and release history remain authoritative for inherited code.
 [简体中文](./README_CN.md) | [English](./README.md) | [Deutsch](./README_DE.md) | [Español](./README_ES.md) | [Français](./README_FR.md) | [Italiano](./README_IT.md) | [Nederlands](./README_NL.md) | [Polski](./README_PO.md) | [Português](./README_PT.md) | [Русский](./README_RU.md) | [日本語](./README_JP.md) | [한국어](./README_KR.md) | [繁體中文](./README_TW.md) | [العربية](./README_AR.md) | [فارسی](./README_FA.md) | [ไทย](./README_TH.md) | [हिन्दी](./README_HI.md) | [Bahasa Indonesia](./README_ID.md) | [Bahasa Melayu](./README_MS.md) | [Türkçe](./README_TR.md) | [Tiếng Việt](./README_VI.md)
 ## MyEMS Introduction
 
@@ -169,52 +168,21 @@ MyEMS API: 8000
 
 MyEMS Admin UI: 8001
 
-### Default Passwords
+### Credentials
 
-Admin UI:
-
-User Name: administrator
-
-Password: !MyEMS1
+This public README does not publish administrator passwords. Set unique credentials during
+installation, keep them outside Git, and rotate any demo credentials before connecting the
+system to real data or a network-accessible environment.
 
 
-Web UI:
+## Ownership and support
 
-User Name: administrator
-
-Password: !MyEMS1
-
-
-## Contact Us
-
-- Company: Haishi Software
-- Contact: Zhang Nengyuan
-- Tel & WeChat: (+86) 13011132526
-- Email: zny@myems.org
-- LINE ID: myems
-- WhatsApp: https://wa.me/message/6HB55A46RVAJP1
-
-| Platform | Description | QR Code |
-|----------|--------------|---------|
-| WeChat | 13011132526 | ![WeChat: 13011132526](./docs/images/qr_code_wechat.png) |
-| Line | MyEMS | ![Line: MyEMS](./docs/images/qr_code_line.png) |
-| WhatsApp | MyEMS | ![WhatsAPP: MyEMS](./docs/images/qr_code_whatsapp.png) |
-| Feishu | 13011132526 | ![Feishu: 13011132526](./docs/images/qr_code_feishu.png) |
-| Weixin Official Subscription Account | Open Source Energy Management System | ![Open Source Energy Management System](./docs/images/qr_code_mp_weixin.png) |
-| WeChat Channels | Open Source Energy Management System | ![Open Source Energy Management System](./docs/images/qr_code_wechat_channels.png) |
-| WeChat Group | WeChat Group | ![WeChat Group](./docs/images/qr_code_wechat_group.png) |
-| QQ Group | 792528967 | ![QQ Group 1](./docs/images/qr_code_qq_group.png) |
-| Xiaohongshu | Xiaohongshu | ![Xiaohongshju](./docs/images/qr_code_xiaohongshu.png) |
+The Energy Saving business unit maintains this fork and its integration requirements. It does
+not represent the upstream maintainer or promise upstream support. Open upstream issues and
+release questions should follow the upstream project channels.
 
 ## Videos
 
 [BiliBili](https://space.bilibili.com/539108162)
 
 [YouTube](https://www.youtube.com/@myems)
-
-
-## 🔖 AD Links
-
-- 👉 JFlow&ccflow: [https://gitee.com/opencc/ccflow](https://gitee.com/opencc/ccflow)
-- 👉 IoTGateway: A cross-platform IoT gateway based on .NET6 [https://github.com/iioter/iotgateway](https://github.com/iioter/iotgateway)
-- 👉 Enjoy IoT: [https://gitee.com/open-enjoy/enjoy-iot](https://gitee.com/open-enjoy/enjoy-iot)

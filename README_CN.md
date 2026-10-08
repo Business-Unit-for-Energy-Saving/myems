@@ -1,17 +1,13 @@
 <p align="center">
    <img alt="logo" src="https://myems.cn/img/myems.png" width="150" height="150">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">MyEMS v6.8.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">MyEMS v6.8.0 · 节能业务单元 fork</h1>
 <h3 align="center">行业领先的开源能源管理系统</h3>
-<h6 align="center">上千个项目案例，荣获CMA检测认证</h6>
-<h6 align="center">承诺永久开源</h6>
-<h6 align="center">QQ群和微信群内技术支持免费</h6>
-<h6 align="center">保持更新，每月发布1个小版本，每年发布1个大版本</h6>
 
-[![CodeQL Scanning](https://github.com/MyEMS/myems/actions/workflows/codeql.yml/badge.svg)](https://github.com/MyEMS/myems/security/code-scanning)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/MyEMS/myems/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/MyEMS/myems/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/MyEMS/myems/badges/build.png?b=master)](https://scrutinizer-ci.com/g/MyEMS/myems/build-status/master)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2cd6049727240e2aaeb8fc7b4086166)](https://app.codacy.com/gh/MyEMS/myems/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+> 本仓库是 `Business-Unit-for-Energy-Saving` 维护的 MyEMS fork，用于产品评估、业务集成和后续能源管理交付准备。
+> 上游项目为 [MyEMS](https://github.com/MyEMS/myems)；继承代码的所有权、许可证和版本历史以上游为准。
+> 当前业务单元处于 `Incubating` 阶段，需求、场景研究和产品规划记录在
+> [requirements 仓库](https://github.com/Business-Unit-for-Energy-Saving/requirements)。
 
 
 [简体中文](./README_CN.md) | [English](./README.md) | [Deutsch](./README_DE.md) | [Español](./README_ES.md) | [Français](./README_FR.md) | [Italiano](./README_IT.md) | [Nederlands](./README_NL.md) | [Polski](./README_PO.md) | [Português](./README_PT.md) | [Русский](./README_RU.md) | [日本語](./README_JP.md) | [한국어](./README_KR.md) | [繁體中文](./README_TW.md) | [العربية](./README_AR.md) | [فارسی](./README_FA.md) | [ไทย](./README_TH.md) | [हिन्दी](./README_HI.md) | [Bahasa Indonesia](./README_ID.md) | [Bahasa Melayu](./README_MS.md) | [Türkçe](./README_TR.md) | [Tiếng Việt](./README_VI.md)
@@ -164,46 +160,15 @@ MyEMS API: 8000
 
 MyEMS Admin UI: 8001
 
-### 默认密码
+### 凭据
 
-Admin UI:
-
-用户名：administrator
-
-密码：!MyEMS1
+本公开 README 不发布管理员密码。安装时必须设置唯一凭据，并将凭据保存在 Git 之外；
+连接真实数据或对外提供服务前，应轮换所有演示凭据。
 
 
-Web UI:
+## 归属与支持
 
-用户名：administrator
-
-密码：!MyEMS1
-
-
-## 联系我们
-
-- 公司: 海识软件
-- 联系人: 张能远
-- 电话微信: (+86) 13011132526
-- Email: zny@myems.org
-
-| Platform | Description | QR Code |
-|---------|--------------|---------|
-| 微信      | 13011132526 | ![WeChat: 13011132526](./docs/images/qr_code_wechat.png) |
-| 飞书      | 13011132526 | ![Feishu: 13011132526](./docs/images/qr_code_feishu.png) |
-| 微信公众号     | 开源能源管理系统 | ![开源能源管理系统](./docs/images/qr_code_mp_weixin.png) |
-| 微信视频号     | MyEMS开源能源管理系统 | ![MyEMS开源能源管理系统](./docs/images/qr_code_wechat_channels.png) |
-| 微信群     | 微信群 | ![微信群](./docs/images/qr_code_wechat_group.png) |
-| QQ群     | 792528967 | ![QQ群](./docs/images/qr_code_qq_group.png) |
-| 小红书     | 小红书 | ![Xiaohongshju](./docs/images/qr_code_xiaohongshu.png) |
+节能业务单元负责本 fork 及其集成需求，不代表上游维护者，也不承诺提供上游支持。
+上游问题和版本发布应遵循上游项目的维护渠道。
 
 ## 视频
-
-
-
-## 🔖 推荐
-
-- 👉 驰骋BPM低代码工作流表单： [https://gitee.com/opencc/ccflow](https://gitee.com/opencc/ccflow)
-- 👉 IoTGateway:基于.NET6的跨平台物联网网关 [https://gitee.com/iioter/iotgateway](https://gitee.com/iioter/iotgateway)
-- 👉 乐联iot平台 [https://gitee.com/open-enjoy/enjoy-iot](https://gitee.com/open-enjoy/enjoy-iot)
-

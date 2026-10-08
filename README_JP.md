@@ -8,10 +8,6 @@
 <h6 align="center">QQグループとWeChatグループ内の技術サポートは無料</h6>
 <h6 align="center">継続的に更新、毎月1つのマイナーバージョン、毎年1つのメジャーバージョンをリリース</h6>
 
-[![CodeQL Scanning](https://github.com/MyEMS/myems/actions/workflows/codeql.yml/badge.svg)](https://github.com/MyEMS/myems/security/code-scanning)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/MyEMS/myems/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/MyEMS/myems/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/MyEMS/myems/badges/build.png?b=master)](https://scrutinizer-ci.com/g/MyEMS/myems/build-status/master)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2cd6049727240e2aaeb8fc7b4086166)](https://app.codacy.com/gh/MyEMS/myems/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 
 [简体中文](./README_CN.md) | [English](./README.md) | [Deutsch](./README_DE.md) | [Español](./README_ES.md) | [Français](./README_FR.md) | [Italiano](./README_IT.md) | [Nederlands](./README_NL.md) | [Polski](./README_PO.md) | [Português](./README_PT.md) | [Русский](./README_RU.md) | [日本語](./README_JP.md) | [한국어](./README_KR.md) | [繁體中文](./README_TW.md) | [العربية](./README_AR.md) | [فارسی](./README_FA.md) | [ไทย](./README_TH.md) | [हिन्दी](./README_HI.md) | [Bahasa Indonesia](./README_ID.md) | [Bahasa Melayu](./README_MS.md) | [Türkçe](./README_TR.md) | [Tiếng Việt](./README_VI.md)
@@ -170,14 +166,14 @@ Admin UI:
 
 ユーザー名：administrator
 
-パスワード：!MyEMS1
+パスワード：<set-during-installation>
 
 
 Web UI:
 
 ユーザー名：administrator
 
-パスワード：!MyEMS1
+パスワード：<set-during-installation>
 
 
 ## お問い合わせ
@@ -201,7 +197,3 @@ Web UI:
 
 
 ## 🔖 おすすめ
-
-- 👉 馳騁BPM低コードワークフローフォーム： [https://gitee.com/opencc/ccflow](https://gitee.com/opencc/ccflow)
-- 👉 IoTGateway:.NET6ベースのクロスプラットフォームIoTゲートウェイ [https://gitee.com/iioter/iotgateway](https://gitee.com/iioter/iotgateway)
-- 👉 楽聯iotプラットフォーム [https://gitee.com/open-enjoy/enjoy-iot](https://gitee.com/open-enjoy/enjoy-iot)
