@@ -4306,7 +4306,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"host\":\"smtp.126.com\",\"port\":25, \"requires_authentication\":true, \"user_name\":\"myems\" , \"password\":\"!MyEMS1\" , \"from_addr\":\"myems@126.com\"}}"
+                  "raw": "{\"data\":{\"host\":\"smtp.126.com\",\"port\":25, \"requires_authentication\":true, \"user_name\":\"myems\" , \"password\":\"CHANGE_ME_AT_DEPLOYMENT\" , \"from_addr\":\"myems@126.com\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/emailservers",
@@ -4379,7 +4379,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"host\":\"smtp.myems.io\",\"port\":25, \"requires_authentication\":true, \"user_name\":\"myems\" , \"password\":\"!MyEMS1\" , \"from_addr\":\"myems@myems.io\"}}"
+                  "raw": "{\"data\":{\"host\":\"smtp.myems.io\",\"port\":25, \"requires_authentication\":true, \"user_name\":\"myems\" , \"password\":\"CHANGE_ME_AT_DEPLOYMENT\" , \"from_addr\":\"myems@myems.io\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/emailservers/1",
@@ -23119,7 +23119,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"name\":\"demo\", \"display_name\":\"Demo\", \"email\":\"demo@myems.io\", \"is_admin\":false, \"privilege_id\":1, \"password\":\"!MyEMS1\", \"account_expiration_datetime\":\"2100-01-01T00:00:00\",\"password_expiration_datetime\":\"2100-01-01T00:00:00\"}}"
+                  "raw": "{\"data\":{\"name\":\"demo\", \"display_name\":\"Demo\", \"email\":\"demo@myems.io\", \"is_admin\":false, \"privilege_id\":1, \"password\":\"CHANGE_ME_AT_DEPLOYMENT\", \"account_expiration_datetime\":\"2100-01-01T00:00:00\",\"password_expiration_datetime\":\"2100-01-01T00:00:00\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/users",
@@ -23140,7 +23140,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"name\":\"administrator\", \"password\":\"!MyEMS1\"}}"
+                  "raw": "{\"data\":{\"name\":\"administrator\", \"password\":\"CHANGE_ME_AT_DEPLOYMENT\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/users/login",
@@ -23214,7 +23214,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"name\":\"albert\", \"display_name\":\"Mr. Albert\", \"email\":\"albert@myems.io\", \"is_admin\":false, \"privilege_id\":1, \"password\":\"!MyEMS1\", \"account_expiration_datetime\":\"2100-01-01T00:00:00\",\"password_expiration_datetime\":\"2100-01-01T00:00:00\"}}"
+                  "raw": "{\"data\":{\"name\":\"albert\", \"display_name\":\"Mr. Albert\", \"email\":\"albert@myems.io\", \"is_admin\":false, \"privilege_id\":1, \"password\":\"CHANGE_ME_AT_DEPLOYMENT\", \"account_expiration_datetime\":\"2100-01-01T00:00:00\",\"password_expiration_datetime\":\"2100-01-01T00:00:00\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/users/2",
@@ -23302,7 +23302,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"old_password\":\"!MyEMS1\", \"new_password\":\"!MyEMS2\"}}"
+                  "raw": "{\"data\":{\"old_password\":\"CHANGE_ME_AT_DEPLOYMENT\", \"new_password\":\"!MyEMS2\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/users/changepassword",
@@ -23363,7 +23363,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"email\":\"administrator@myems.io\", \"password\":\"!MyEMS1\"}}"
+                  "raw": "{\"data\":{\"email\":\"administrator@myems.io\", \"password\":\"CHANGE_ME_AT_DEPLOYMENT\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/users/login",
@@ -23687,7 +23687,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\"data\":{\"name\":\"demo1\", \"display_name\":\"Demo1\", \"email\":\"demo1@myems.io\", \"password\":\"!MyEMS1\", \"token\":\"f2f1956d1951a9ba7cabb33307b8beaa4c252434aa1378a4766133a46eb1b5c28cb28da7120795596b494f4000a5a718289f20382120ca455beafde74551851a\"}}"
+                  "raw": "{\"data\":{\"name\":\"demo1\", \"display_name\":\"Demo1\", \"email\":\"demo1@myems.io\", \"password\":\"CHANGE_ME_AT_DEPLOYMENT\", \"token\":\"f2f1956d1951a9ba7cabb33307b8beaa4c252434aa1378a4766133a46eb1b5c28cb28da7120795596b494f4000a5a718289f20382120ca455beafde74551851a\"}}"
                 },
                 "url": {
                   "raw": "{{base_url}}/users/newusers",

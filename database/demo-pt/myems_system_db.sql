@@ -129,12 +129,12 @@ VALUES
 (5, 'Fonte de dados ControlLogix (exemplo) *Edição empresarial*', 'd1dc9792-7861-4dd3-9b01-07511dae16c1', 1, 'controllogix', '{"host":"192.168.0.5","port":44818,"processorslot":3}'),
 (6, 'Fonte de dados OPC UA (exemplo) *Edição empresarial*', '56e1c642-8032-495b-af2e-18a77ca75e0f', 1, 'opc-ua', '{"url":"opc.tcp://192.168.0.6:49320/OPCUA/SimulationServer/"}'),
 (7, 'Fonte de dados meteorológicos (exemplo) *Edição empresarial*', '9bff8e95-c7c9-4002-b040-08a96ae196b5', 1, 'weather', '{"base_url":"WEATHER_API_URL", "location":"beijing", "key":"APPKEY"}'),
-(8, 'Fonte de dados MySQL (exemplo) *Edição empresarial*', '409439d0-3e0a-4ab3-865a-a5c0329925f8', 1, 'mysql', '{"host":"192.168.0.8", "port":3306, "user":"myems", "password":"!MyEMS1", "database":"myems_ingestion_db" }'),
-(9, 'Fonte de dados SQL Server (exemplo) *Edição empresarial*', '025f0429-5088-4f2a-85a3-dff9b4523692', 1, 'sqlserver', '{"host":"192.168.0.9", "port":1433, "user":"myems", "password":"!MyEMS1", "database":"myems_ingestion_db" }'),
-(10, 'Fonte de dados PostgreSQL (exemplo) *Edição empresarial*', 'd89b81e6-4917-4a84-b0e9-c2e939599d3a', 1, 'postgresql', '{"host":"192.168.0.10", "port":5432, "user":"myems", "password":"!MyEMS1", "database":"myems_ingestion_db" }'),
-(11, 'Fonte de dados Oracle (exemplo) *Edição empresarial*', '1bdf4db8-ea71-433e-ad16-b637275073d7', 1, 'oracle', '{"dsn":"192.168.0.11:1521/myems", "user":"myems", "password":"!MyEMS1"}'),
+(8, 'Fonte de dados MySQL (exemplo) *Edição empresarial*', '409439d0-3e0a-4ab3-865a-a5c0329925f8', 1, 'mysql', '{"host":"192.168.0.8", "port":3306, "user":"myems", "password":"CHANGE_ME_AT_DEPLOYMENT", "database":"myems_ingestion_db" }'),
+(9, 'Fonte de dados SQL Server (exemplo) *Edição empresarial*', '025f0429-5088-4f2a-85a3-dff9b4523692', 1, 'sqlserver', '{"host":"192.168.0.9", "port":1433, "user":"myems", "password":"CHANGE_ME_AT_DEPLOYMENT", "database":"myems_ingestion_db" }'),
+(10, 'Fonte de dados PostgreSQL (exemplo) *Edição empresarial*', 'd89b81e6-4917-4a84-b0e9-c2e939599d3a', 1, 'postgresql', '{"host":"192.168.0.10", "port":5432, "user":"myems", "password":"CHANGE_ME_AT_DEPLOYMENT", "database":"myems_ingestion_db" }'),
+(11, 'Fonte de dados Oracle (exemplo) *Edição empresarial*', '1bdf4db8-ea71-433e-ad16-b637275073d7', 1, 'oracle', '{"dsn":"192.168.0.11:1521/myems", "user":"myems", "password":"CHANGE_ME_AT_DEPLOYMENT"}'),
 (13, 'Fonte de dados InfluxDB (exemplo) *Edição empresarial*', '79cb60ff-c683-4289-ac69-bd13e1f970d1', 1, 'influxdb', '{"url":"http://192.168.0.13:8086", "token":"MYEMSINFLUXDBTOKEN", "org":"myems", "bucket":"myems"}'),
-(14, 'Fonte de dados MQTT (exemplo) *Edição empresarial*', 'e3d56e11-00da-4957-ab0b-1d761dc8b89f', 1, 'mqtt', '{"host":"192.168.1.101", "port":1883, "user":"myems", "password":"!MyEMS1", "topic":"myems", "qos":2 }');
+(14, 'Fonte de dados MQTT (exemplo) *Edição empresarial*', 'e3d56e11-00da-4957-ab0b-1d761dc8b89f', 1, 'mqtt', '{"host":"192.168.1.101", "port":1883, "user":"myems", "password":"CHANGE_ME_AT_DEPLOYMENT", "topic":"myems", "qos":2 }');
 COMMIT;
 
 -- ---------------------------------------------------------------------------------------------------------------------

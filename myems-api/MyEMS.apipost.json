@@ -36224,7 +36224,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"host\": \"smtp.126.com\",\n\t\t\"port\": 25,\n\t\t\"requires_authentication\": true,\n\t\t\"user_name\": \"myems\",\n\t\t\"password\": \"!MyEMS1\",\n\t\t\"from_addr\": \"myems@126.com\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"host\": \"smtp.126.com\",\n\t\t\"port\": 25,\n\t\t\"requires_authentication\": true,\n\t\t\"user_name\": \"myems\",\n\t\t\"password\": \"CHANGE_ME_AT_DEPLOYMENT\",\n\t\t\"from_addr\": \"myems@126.com\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
@@ -36715,7 +36715,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"host\": \"smtp.myems.io\",\n\t\t\"port\": 25,\n\t\t\"requires_authentication\": true,\n\t\t\"user_name\": \"myems\",\n\t\t\"password\": \"!MyEMS1\",\n\t\t\"from_addr\": \"myems@myems.io\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"host\": \"smtp.myems.io\",\n\t\t\"port\": 25,\n\t\t\"requires_authentication\": true,\n\t\t\"user_name\": \"myems\",\n\t\t\"password\": \"CHANGE_ME_AT_DEPLOYMENT\",\n\t\t\"from_addr\": \"myems@myems.io\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
@@ -162134,7 +162134,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"demo\",\n\t\t\"display_name\": \"Demo\",\n\t\t\"email\": \"demo@myems.io\",\n\t\t\"is_admin\": false,\n\t\t\"privilege_id\": 1,\n\t\t\"password\": \"!MyEMS1\",\n\t\t\"account_expiration_datetime\": \"2100-01-01T00:00:00\",\n\t\t\"password_expiration_datetime\": \"2100-01-01T00:00:00\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"demo\",\n\t\t\"display_name\": \"Demo\",\n\t\t\"email\": \"demo@myems.io\",\n\t\t\"is_admin\": false,\n\t\t\"privilege_id\": 1,\n\t\t\"password\": \"CHANGE_ME_AT_DEPLOYMENT\",\n\t\t\"account_expiration_datetime\": \"2100-01-01T00:00:00\",\n\t\t\"password_expiration_datetime\": \"2100-01-01T00:00:00\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
@@ -162399,7 +162399,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"administrator\",\n\t\t\"password\": \"!MyEMS1\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"administrator\",\n\t\t\"password\": \"CHANGE_ME_AT_DEPLOYMENT\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
@@ -162840,7 +162840,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"albert\",\n\t\t\"display_name\": \"Mr. Albert\",\n\t\t\"email\": \"albert@myems.io\",\n\t\t\"is_admin\": false,\n\t\t\"privilege_id\": 1,\n\t\t\"password\": \"!MyEMS1\",\n\t\t\"account_expiration_datetime\": \"2100-01-01T00:00:00\",\n\t\t\"password_expiration_datetime\": \"2100-01-01T00:00:00\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"albert\",\n\t\t\"display_name\": \"Mr. Albert\",\n\t\t\"email\": \"albert@myems.io\",\n\t\t\"is_admin\": false,\n\t\t\"privilege_id\": 1,\n\t\t\"password\": \"CHANGE_ME_AT_DEPLOYMENT\",\n\t\t\"account_expiration_datetime\": \"2100-01-01T00:00:00\",\n\t\t\"password_expiration_datetime\": \"2100-01-01T00:00:00\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
@@ -163360,7 +163360,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"old_password\": \"!MyEMS1\",\n\t\t\"new_password\": \"!MyEMS2\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"old_password\": \"CHANGE_ME_AT_DEPLOYMENT\",\n\t\t\"new_password\": \"!MyEMS2\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
@@ -163850,7 +163850,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"email\": \"administrator@myems.io\",\n\t\t\"password\": \"!MyEMS1\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"email\": \"administrator@myems.io\",\n\t\t\"password\": \"CHANGE_ME_AT_DEPLOYMENT\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
@@ -166007,7 +166007,7 @@
 				"body": {
 					"mode": "json",
 					"parameter": [],
-					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"demo1\",\n\t\t\"display_name\": \"Demo1\",\n\t\t\"email\": \"demo1@myems.io\",\n\t\t\"password\": \"!MyEMS1\",\n\t\t\"token\": \"f2f1956d1951a9ba7cabb33307b8beaa4c252434aa1378a4766133a46eb1b5c28cb28da7120795596b494f4000a5a718289f20382120ca455beafde74551851a\"\n\t}\n}",
+					"raw": "{\n\t\"data\": {\n\t\t\"name\": \"demo1\",\n\t\t\"display_name\": \"Demo1\",\n\t\t\"email\": \"demo1@myems.io\",\n\t\t\"password\": \"CHANGE_ME_AT_DEPLOYMENT\",\n\t\t\"token\": \"f2f1956d1951a9ba7cabb33307b8beaa4c252434aa1378a4766133a46eb1b5c28cb28da7120795596b494f4000a5a718289f20382120ca455beafde74551851a\"\n\t}\n}",
 					"raw_parameter": [],
 					"raw_schema": {
 						"type": "object",
